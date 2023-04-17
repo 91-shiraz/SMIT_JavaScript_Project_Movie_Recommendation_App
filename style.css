@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+}
+
+.head-sec{
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+}
+
+.title{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: rgb(0, 0, 71);
+    color: white;
+    font-size: 3rem;
+}
+
+.searchContainer{
+    width: 100%;
+    position: relative;
+    margin: 20px 0 0 0;
+}
+
+#searchMovie{
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+#searchBtn{
+    position: absolute;
+    right: 0;
+    width: 10%;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 0, 197);
+    background-color: rgb(0, 0, 71);
+    transition:  0.3s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+#searchBtn:hover{
+    background-color: rgb(0, 0, 161);
+}
+
+.filter-sec{
+    display: inline-flex;
+    margin-top: 20px;
+
+}
+
+.rating-sec,
+.year-sec,
+.lang-sec{
+    width: 25%;
+    margin-left: 25px;
+    padding-left: 15px;
+
+}
+
+.genre-sec, 
+.rating-sec,
+.year-sec,
+.lang-sec label{
+    font-size: 1rem;
+}
+
+select{
+    width: 260px;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-top: 5px;
+    background-color: rgb(251, 251, 251);
+    padding-left: 10px;
+}
+.searchHeading{
+    margin: 30px 0 5px 0;
+    color: rgb(0, 0, 71);
+}
+
+h3{
+    text-align: center;
+}
+
+#contentDisplayHeadings {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contentDisplay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieDetailsColumn {
+    width: 100%;
+}
+
+.rankColumn, .yearColumn {
+    width: 30%;
+    
+}
+
+.detailBox {
+    font-size: 2rem;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rankFromJs {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.movieFromJs {
+    width: 100%;
+    height: 80px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.movietitlefromJS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.certificationspanstyle {
+    background-color: rgb(245, 245, 245);
+    font-size: 0.78rem;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.ratingDuration {
+    font-size: 13px;
+    margin: 3px;
+    text-decoration: underline;
+    text-align: center
+}
+
+.ratingDurationAns {
+    font-size: 13px;
+    margin: 3px;
+    text-align: center
+}
+
+#backtop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#backtop:hover {
+    background-color: #fff1cc;
+}
+
+#backtop img {
+    width: 40%;
+    height: 54px;
+}
+
+#backtop a {
+    color: black;
+}
+
+#backtop span {
+    float: right;
+    width: 60%;
+}
